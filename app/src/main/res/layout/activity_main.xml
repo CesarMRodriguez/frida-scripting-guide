@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test sum" />
+
+        <Button
+            android:id="@+id/btnBoolean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test boolean" />
+
+        <Button
+            android:id="@+id/btnFloatingPoints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Floating Point" />
+
+        <Button
+            android:id="@+id/btnChar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test char" />
+
+        <Button
+            android:id="@+id/btnString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test string" />
+
+        <Button
+            android:id="@+id/btnTestArray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test array" />
+
+        <Button
+            android:id="@+id/btnConstructor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test constructor" />
+
+        <Button
+            android:id="@+id/btnThisParameter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="this parameter" />
+
+        <Button
+            android:id="@+id/btnMyInterface"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test interface " />
+
+        <Button
+            android:id="@+id/btnInnerClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inner class" />
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
